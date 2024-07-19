@@ -1,4 +1,0 @@
-Test Line
-Node Number	LOC_DEFX ()
-342681	2.0
-342682	4.0

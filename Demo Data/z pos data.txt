@@ -1,4 +1,0 @@
-Test Line
-Node Number	LOC_DEFZ ()
-342681	-8.7297e-002
-342682	-8.8933e-002
