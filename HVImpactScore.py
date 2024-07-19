@@ -275,6 +275,7 @@ class SPHNode:
 
         self.group_hash = hash_value
 
+# This class loads experimental data images and preforms image processing tasks.
 class ImageProcessing:
     """
     This class loads experimental data images and preforms image processing tasks.
@@ -471,7 +472,8 @@ class ImageProcessing:
                            tol=1e-7).x
         
         return opt_abs
-    
+
+# This class performs data processing on SPH data sets.   
 class SPHDataProcessing:
     """
     This class performs data processing on SPH data sets.
@@ -688,8 +690,9 @@ class SPHDataProcessing:
                                                                     sph_data_pack["img_max_y"],
                                                                     sph_data_pack["verbose"])
         return density_map
-    
-class scoring:
+
+# This class contains the scoring methods used to perform HVI SPH similarity scoring.   
+class Scoring:
     """
     This class contains the scoring methods used to perform HVI SPH similarity scoring.
     """

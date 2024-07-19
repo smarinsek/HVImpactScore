@@ -1,0 +1,4 @@
+Test Line
+Node Number	LOC_DEFY (m)
+342681	6.8967e-004
+342682	2.1154e-004
